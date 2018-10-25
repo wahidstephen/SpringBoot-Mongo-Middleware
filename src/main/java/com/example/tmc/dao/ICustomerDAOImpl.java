@@ -8,11 +8,12 @@ import org.springframework.stereotype.Repository;
 
 import com.example.tmc.model.Customer;
 
+// Implementation of CustomerDAO
 @Repository
 public class ICustomerDAOImpl implements ICustomerDao {
 
 	@Autowired
-	private MongoTemplate mt;
+	private MongoTemplate mt; // Object of MongTemplate
 	
 	@Override
 	public List<Customer> getAllCust() {

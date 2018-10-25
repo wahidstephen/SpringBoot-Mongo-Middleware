@@ -3,6 +3,7 @@ package com.example.tmc.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+// Customer model
 @Document
 public class Customer {
 	
